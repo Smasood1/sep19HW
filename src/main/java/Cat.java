@@ -6,7 +6,7 @@ public class Cat extends Pet{
     }
 
     @Override
-    public String getNoise() {
-        return super.getNoise();
+    public void makeNoise() {
+        System.out.println("The cats name is: "+ getName() + " and it goes " + getNoise());
     }
 }

@@ -34,19 +34,8 @@ public class Pet {
 
 
 
-    public static void makeNoise(Pet pet){
-        if(pet instanceof Dog){
-            System.out.println(pet.noise);
-        }else if (pet instanceof Cat) {
-            System.out.println(pet.noise);
-
-        } else if (pet instanceof Tiger) {
-            System.out.println(pet.noise);
-        } else {
-            System.out.println(" ");
-
-        }
-
+    public void makeNoise(){
+        System.out.println("This animal is making noise");
     }
 
 
